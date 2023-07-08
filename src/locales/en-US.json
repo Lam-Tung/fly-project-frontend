@@ -1,9 +1,9 @@
 {
-    "general": {
-        "project-name": "Fly-Project"
-    },
-    "navbar": {
-        "home": "Home",
-        "pokemon": "Pokemon"
-    }
+  "general": {
+    "project-name": "Fly-Project"
+  },
+  "navbar": {
+    "home": "Home",
+    "pokemon": "Pokemon"
+  }
 }

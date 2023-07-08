@@ -1,14 +1,26 @@
+<!-- SCRIPT -->
 <script>
-    import "../app.css";
     import '../i18n';
     import Navbar from "./lib/Navbar.svelte";
+    import { isLoading } from 'svelte-i18n';
+    import '../styles/app.scss';
 </script>
 
-
-<Navbar />
-<div>
+<!-- HTML -->
+<!-- svelte-ignore empty-block -->
+{#if $isLoading}
+{:else}
+<div class="app-container">
+    <Navbar />
     <slot />
 </div>
+{/if}
 
-<style>
-</style> 
+<!-- STYLING -->
+<style global lang="scss">
+    @import '../styles/app.scss';
+
+    .app-container {
+        display: flex;
+    }
+</style>

@@ -1,9 +1,16 @@
-<h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
-  
-  <style lang="postcss">
-    :global(html) {
-      background-color: #27374D
-    }
-  </style>
+<!-- SCRIPT -->
+<script>
+
+</script>
+
+
+<!-- HTML -->
+<h1 class="">
+    Hello World!
+</h1>
+
+
+<!-- STYLING -->
+<style lang="scss">
+
+</style>

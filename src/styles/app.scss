@@ -1,0 +1,28 @@
+// ##################### COLORS #####################
+$dark-1: #27374D;
+$dark-2: #526D82;
+$light-1: #9DB2BF;
+$light-2: #DDE6ED;
+$orange: #FF9203;
+
+// ##################### SPACING #####################
+$spacing-12: 12px;
+$spacing-24: 24px;
+
+//##################### SIZES #####################
+// BORDER
+$border-width: 2px;
+$border-radius: 4px;
+
+:global {
+    * {
+        margin: 0;
+    }
+
+    body {
+        background-color: $light-2;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+}

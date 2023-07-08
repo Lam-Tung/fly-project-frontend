@@ -8,8 +8,8 @@
 <!-- HTML -->
 <nav>
     <a href="/" class="project-name">{$_('general.project-name')}</a>
-    <a href="/" class:active={$page.url.pathname === '/'}>{$_('navbar.home')}</a>
-    <a href="/pokemon" class:active={$page.url.pathname === '/pokemon'}>{$_('navbar.pokemon')}</a>
+    <a href="/" class:active={$page.url.pathname === '/'}><i class="fa-solid fa-house icon-margin"></i>{$_('navbar.home')}</a>
+    <a href="/pokemon" class:active={$page.url.pathname === '/pokemon'}><i class="fa-solid fa-database icon-margin"></i>{$_('navbar.pokemon')}</a>
 </nav>
 
 
@@ -24,6 +24,12 @@
         height: 100vh;
         max-width: 20vw;
         min-width: 10vw;
+
+        .project-name {
+            font-size: 1.6rem;
+            font-weight: 700;
+            white-space: no-warp;
+        }
 
         a:first-child {
             margin: $spacing-24;
@@ -77,10 +83,8 @@
             margin: 0 $spacing-24 $spacing-24 $spacing-24;
         }
 
-        .project-name {
-            font-size: 1.6rem;
-            font-weight: 700;
-            white-space: no-warp;
+        .icon-margin {
+            margin-right: $spacing-12;
         }
     }
 </style>

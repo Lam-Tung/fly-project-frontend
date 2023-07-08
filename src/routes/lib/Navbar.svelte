@@ -8,6 +8,7 @@
 <nav>
     <a href="/" class="project-name">{$_('general.project-name')}</a>
     <a href="/">{$_('navbar.home')}</a>
+    <a href="/pokemon">{$_('navbar.pokemon')}</a>
 </nav>
 
 
@@ -27,6 +28,10 @@
             margin: $spacing-24;
             color: $orange;
             border: none;
+
+            &:hover {
+                border: none;
+            }
         }
         
         a {
@@ -34,10 +39,13 @@
             margin: 0 $spacing-24 $spacing-24 $spacing-24;
             padding: $spacing-12;
             color: $light-1;
-            border: $border-width solid $light-1;
-            border-radius: $border-radius;
             text-decoration: none;
             font-weight: 600;
+        }
+
+        a:hover {
+            border: $border-width solid $light-1;
+            border-radius: $border-radius;
         }
 
         .project-name {

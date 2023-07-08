@@ -3,6 +3,7 @@
         "project-name": "Fly-Project"
     },
     "navbar": {
-        "home": "Home"
+        "home": "Home",
+        "pokemon": "Pokemon"
     }
 }
